@@ -28,10 +28,13 @@ window.addEventListener('scroll', () =>{
     const scrollTop = html.scrollTop; 
     const maxScrollTop = html.scrollHeight - window.innerHeight;
     const scrollFraction = scrollTop/maxScrollTop;
+    console.log(scrollFraction);
     const frameIndex = Math.min(framecount - 1,Math.floor(scrollFraction * framecount));
+    
     
     requestAnimationFrame(() => updateImage(frameIndex + 1))
 })
+
 
 const preloadImages = () =>{
 

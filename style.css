@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     height: 100vh;
 }
@@ -7,9 +11,38 @@ body{
     background:#000;
     height: 1240vh;
 }
+.new{
 
+    background: white;
+}
+nav{
+    color: white;
+    
+    position:fixed;
+    margin:0px;
+    display:block;
+    padding:2px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+nav .rig{
+    margin-left: 2rem;
+    font-size: 28px;
+}
+h1{
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
 canvas{
     position: fixed;
+    margin:30px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
