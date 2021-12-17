@@ -15,6 +15,17 @@ body{
 
     background: white;
 }
+.sc{
+ height: 6rem;
+ width: 6.3rem;   
+ margin-top:5.5rem;
+ opacity: 50%;
+ position:fixed;
+ justify-content: right;
+}
+.imgs{
+    justify-content: right;
+}
 nav{
     color: white;
     
@@ -40,6 +51,7 @@ h1{
     transform: translate(-50%, -50%);
     font-size: 80px;
 }
+
 canvas{
     position: fixed;
     margin:30px;

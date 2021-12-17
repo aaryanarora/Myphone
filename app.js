@@ -30,6 +30,17 @@ window.addEventListener('scroll', () =>{
     const scrollFraction = scrollTop/maxScrollTop;
     console.log(scrollFraction);
     const frameIndex = Math.min(framecount - 1,Math.floor(scrollFraction * framecount));
+    // if(frameIndex>5)
+    // {
+    //     document.querySelector('img').style.opacity = "0%";
+    // }
+    // else if((frameIndex>3)&&(frameIndex<=5))
+    // {
+    //     document.querySelector('img').style.opacity = "20%";
+    // }
+    // else if(frameIndex<=3){
+    //     document.querySelector('img').style.opacity = "50%";
+    // }
     
     
     requestAnimationFrame(() => updateImage(frameIndex + 1))
